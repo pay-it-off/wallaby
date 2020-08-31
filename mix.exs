@@ -72,9 +72,9 @@ defmodule Wallaby.Mixfile do
     [
       files: ["lib", "mix.exs", "README.md", "LICENSE.md", "priv"],
       exclude_patterns: ["safe_travis.ex"],
-      maintainers: @maintainers,
       licenses: ["MIT"],
-      links: %{"Github" => "https://github.com/keathley/wallaby"}
+      organization: "payitoff",
+      links: %{"Github" => "https://github.com/pay-it-off/wallaby"}
     ]
   end
 
